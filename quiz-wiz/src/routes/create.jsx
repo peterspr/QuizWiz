@@ -122,6 +122,7 @@ const QuizForm = () => {
 
 
     setQuizTitle('');
+    setQuizDescription('')
     setQuestions([]);
     setCurrentQuestion({
       type: '',
