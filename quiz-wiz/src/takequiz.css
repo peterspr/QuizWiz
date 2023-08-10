@@ -1,0 +1,51 @@
+main {
+    display: block;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.question-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+form {
+    width: 100%;
+}
+
+.answer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.answer-and-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+.text_input {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 80%;
+}
