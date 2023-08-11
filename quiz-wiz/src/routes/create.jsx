@@ -167,7 +167,7 @@ const QuizForm = () => {
             <option value="multipleChoice">Multiple Choice</option>
             <option value="multipleSelection">Multiple Selection</option>
             <option value="textAnswer">Text Answer</option>
-          </select>`
+          </select>
 
           {currentQuestion.type === 'multipleChoice' && (
             <MultipleChoiceQuestion
